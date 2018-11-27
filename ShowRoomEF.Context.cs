@@ -17,9 +17,8 @@ namespace DataAccessLayer
 
     public partial class DemoDBConnectionString : DbContext
     {
-        //static string connectionString = @"Data Source=UE-DEV-LT7\MSQLSERVER; Initial Catalog=DemoDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework;";
         public DemoDBConnectionString()
-            : base("name = DemoDBConnectionString")//"name=DemoDBConnectionString"
+            : base("name = DemoDBConnectionString")
         {
         }
 
